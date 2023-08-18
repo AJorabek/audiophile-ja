@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  background-color: $black-one-color;
+}
+.sitenav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+.site-logo {
+  margin-bottom: 3.6rem;
+}
+.sitenav__list {
+  display: flex;
+  gap: 34px;
+  margin-left: 15rem;
+}
+.sitenav__item__link {
+  color: $white-color;
+}
+.sitenav__item__link:hover {
+  color: $brown-color;
+}
+.sitenav__shop {
+  margin-left: 20rem;
+}
+.header__hr {
+  color: #979797;
+  opacity: 0.8;
+  width: 1110px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.hero-wrapper {
+  align-items: center;
+  position: relative;
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-top: 19.8rem;
+  padding-bottom: 27rem;
+  margin-bottom: 2rem;
+}
+.hero__content-upper-p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.4964;
+  margin-bottom: 2.4rem;
+}
+.hero__content__title {
+  color: $white-color;
+  width: 100%;
+  max-width: 396px;
+  height: 116px;
+  margin-bottom: 2.4rem;
+}
+.hero__content__down-p {
+  width: 100%;
+  max-width: 349px;
+  color: $white-color;
+  opacity: 0.75;
+  margin-bottom: 4rem;
+}
+.sitenav__toggler {
+  display: none;
+}
+.hero__img {
+  //   background-image: url("./images/main-headphone.png");
+  position: absolute;
+}
+.background-img {
+  position: absolute;
+}
+@media screen and (max-width: 1161px) {
+  .header__hr {
+    width: 600px;
+    margin-left: 20rem;
+  }
+  .hero-wrapper {
+    align-items: center;
+  }
+  .sitenav__list {
+    display: none;
+  }
+  .sitenav__toggler {
+    display: flex;
+    margin-left: -40rem;
+  }
+}

@@ -1,0 +1,84 @@
+main {
+  flex-grow: 1;
+}
+// Hero start
+// Hero end
+.things {
+  margin-top: 12rem;
+}
+.things__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.list__item {
+  width: 350px;
+  height: 204px;
+  background-color: $light-gray-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.things__img {
+  margin-top: -8rem;
+  margin-bottom: 4rem;
+}
+// Delivery
+.delivery {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+.delivery-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12.5rem;
+}
+.delivery-img {
+  width: 100%;
+}
+.content__title {
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  width: 445px;
+  height: 88px;
+  color: #000;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.429px;
+  text-transform: uppercase;
+}
+.orange-color {
+  color: $brown-color;
+}
+.content__decsription {
+  color: #000;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.9;
+}
+// End
+// Selling products
+
+// Selling end
+@media screen and (max-width: 801px) {
+  .things__list {
+    align-items: center;
+    justify-content: center;
+  }
+  .list__item {
+    margin-top: 6rem;
+    gap: 5px;
+    h4 {
+      margin-top: -1rem;
+      margin-bottom: 20px;
+    }
+  }
+}
